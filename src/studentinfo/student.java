@@ -7,7 +7,7 @@ package studentinfo;
  */
 public class student {
            private String name;
-           String address;
+           private String address;
 
     public student(String name) {
         this.name = name;
@@ -27,6 +27,14 @@ public class student {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
     }
     
 }
