@@ -7,7 +7,7 @@ package studentinfo;
  */
 public class student {
            private String name;
-           string address;
+           String address;
 
     public student(String name) {
         this.name = name;
